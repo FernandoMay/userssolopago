@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:users/src/pages/adduser.dart';
 import 'package:users/src/services/api.dart';
 
 class Home extends StatelessWidget {
@@ -24,6 +25,9 @@ class Home extends StatelessWidget {
               return null;
             });
           }),
+          floatingActionButton: FloatingActionButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> AddUserPage()));
+          },child: const Icon(Icons.person_add),)
     );
   }
 }

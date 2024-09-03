@@ -15,3 +15,13 @@ Future<List<User>> getUsers() async {
     rethrow;
   }
 }
+
+Future<String> postUser(User user) async{
+  try{
+    Uri uri =  Uri.https(baseUrl, '/users');
+    final response = await http.post(uri,body: user.toJson());
+    return response.body;
+  }catch(e){
+    rethrow;
+  }
+}
