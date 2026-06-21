@@ -1,29 +1,22 @@
-# users
+# userssolopago
 
-A new Flutter project.
+users solopago mockapi
+
+## Overview
+
+| Attribute | Details |
+|-----------|---------|
+| **Language** | C++ |
+| **Size** | ~0.3 MB |
+| **Last Updated** | 2024-09-03T21:15:53Z |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/to/state-management-sample).
+```bash
+git clone https://github.com/FernandoMay/userssolopago.git
+cd userssolopago
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
 
-## Assets
-
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
-
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/to/resolution-aware-images).
-
-## Localization
-
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
-
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter apps](https://flutter.dev/to/internationalization).
+MIT
